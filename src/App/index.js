@@ -38,9 +38,22 @@ class App extends Component {
     return (
       <div className="App">
         <div className="columnContainer">
-          <Menu menuItem={this.state.menuItem} />
-          <Menu menuItem={this.state.menuItem} />
-          <Menu menuItem={this.state.menuItem} />
+          <div className="title"> MENU ITEMS </div>
+          <Menu
+            menuItem={this.state.menuItem.filter(
+              item => item.course === "breakfast"
+            )}
+          />
+          <Menu
+            menuItem={this.state.menuItem.filter(
+              item => item.course === "lunch"
+            )}
+          />
+          <Menu
+            menuItem={this.state.menuItem.filter(
+              item => item.course === "dinner"
+            )}
+          />
         </div>
       </div>
     );
