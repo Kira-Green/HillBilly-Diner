@@ -1,0 +1,6 @@
+.App-title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  width: 100vw;
+}

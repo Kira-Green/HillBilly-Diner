@@ -12,3 +12,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.columnContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  height: 50vh;
+  width: 100vw;
+}
