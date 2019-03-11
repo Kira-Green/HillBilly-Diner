@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 // import logo from "./logo.svg";
 import "./App.css";
-import Menu from "../components/Menu";
+import Menu from "../Menu";
+import Header from "../Header";
 
 class App extends Component {
   constructor(props) {
@@ -37,6 +38,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
         <div className="columnContainer">
           <div className="title"> MENU ITEMS </div>
           <Menu
